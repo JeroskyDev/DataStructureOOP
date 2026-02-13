@@ -17,9 +17,9 @@
 
         public Date(int year, int month, int day) //parameters
         {
-            _year = year;
-            _month = month;
-            _day = day;
+            Year = year;
+            Month = month;
+            Day = day;
         }
 
         //create properties
