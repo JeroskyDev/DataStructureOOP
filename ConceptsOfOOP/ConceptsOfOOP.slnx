@@ -1,4 +1,6 @@
 <Solution>
-  <Project Path="ConceptsOfOOP.backend/ConceptsOfOPP.Backend.csproj" />
-  <Project Path="OPPConcepts.Frontend/OPPConcepts.Frontend.csproj" />
+  <Folder Name="/DateClass/">
+    <Project Path="ConceptsOfOOP.backend/ConceptsOfOPP.Backend.csproj" />
+    <Project Path="OPPConcepts.Frontend/OPPConcepts.Frontend.csproj" />
+  </Folder>
 </Solution>
