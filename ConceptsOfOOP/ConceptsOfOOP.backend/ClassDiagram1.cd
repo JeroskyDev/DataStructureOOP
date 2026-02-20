@@ -9,17 +9,19 @@
   </Class>
   <Class Name="ConceptsOfOPP.Backend.Employee">
     <Position X="1" Y="3" Width="1.5" />
-    <AssociationLine Name="BornDate" Type="ConceptsOfOPP.Backend.Date">
+    <AssociationLine Name="BornDate" Type="ConceptsOfOPP.Backend.Date" FixedToPoint="true">
+      <Path>
+        <Point X="1.125" Y="5.517" />
+        <Point X="1.125" Y="7" />
+      </Path>
       <MemberNameLabel ManuallyPlaced="true">
         <Position X="0.06" Y="1.048" />
       </MemberNameLabel>
     </AssociationLine>
-    <AssociationLine Name="HireDay" Type="ConceptsOfOPP.Backend.Date" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+    <AssociationLine Name="HireDay" Type="ConceptsOfOPP.Backend.Date" ManuallyRouted="true" FixedToPoint="true">
       <Path>
         <Point X="2.156" Y="5.517" />
-        <Point X="2.156" Y="6.743" />
-        <Point X="2.125" Y="6.743" />
-        <Point X="2.125" Y="7" />
+        <Point X="2.188" Y="7" />
       </Path>
       <MemberNameLabel ManuallyPlaced="true">
         <Position X="-0.721" Y="0.902" />
@@ -33,6 +35,13 @@
       <Property Name="BornDate" />
       <Property Name="HireDay" />
     </ShowAsAssociation>
+  </Class>
+  <Class Name="ConceptsOfOPP.Backend.SalaryEmployee">
+    <Position X="4.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAACAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAQAAAA=</HashCode>
+      <FileName>SalaryEmployee.cs</FileName>
+    </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
