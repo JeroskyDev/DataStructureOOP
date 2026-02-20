@@ -1,6 +1,7 @@
 ﻿//create frontend for date app with the class we already created
 using ConceptsOfOPP.Backend;
 
+/*
 try
 {
     var date1 = new Date();
@@ -15,4 +16,13 @@ catch (Exception ex)
 {
     Console.WriteLine(ex.Message);
 }
+*/
 
+try
+{
+
+} 
+catch
+{
+
+}

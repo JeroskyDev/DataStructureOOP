@@ -2,7 +2,7 @@
 {
     public class Date : Object
     {
-        //create private attributes 
+        //create fields 
         private int _year;
         private int _month;
         private int _day;

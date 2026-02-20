@@ -1,11 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="ConceptsOfOPP.Backend.Date">
-    <Position X="2.5" Y="4" Width="3" />
+    <Position X="0.5" Y="7" Width="3" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAJAAAAAAEAAEAAAMAAAAAAACEMAAAAAAAAAA=</HashCode>
       <FileName>Date.cs</FileName>
     </TypeIdentifier>
+  </Class>
+  <Class Name="ConceptsOfOPP.Backend.Employee">
+    <Position X="1" Y="3" Width="1.5" />
+    <AssociationLine Name="BornDate" Type="ConceptsOfOPP.Backend.Date">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.06" Y="1.048" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="HireDay" Type="ConceptsOfOPP.Backend.Date" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.156" Y="5.517" />
+        <Point X="2.156" Y="6.743" />
+        <Point X="2.125" Y="6.743" />
+        <Point X="2.125" Y="7" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.721" Y="0.902" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABACAEAAAACAAAAEEAAAAAAAAAAAAAAIAAAAAAAAAAg=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="BornDate" />
+      <Property Name="HireDay" />
+    </ShowAsAssociation>
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
